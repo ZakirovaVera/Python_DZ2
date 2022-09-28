@@ -18,10 +18,3 @@ if user_number > 0:
     print(f'{(user_number)} -> {sum_digits_number}')
 else:
     print(f'{(user_number)} -> {-sum_digits_number}')
-
-# str_user_number = str(user_number)
-# str_user_number = str_user_number.replace('.', '')
-# lst_str = list(str_user_number)
-# lst_num = map(int, lst_str)
-# s = sum(lst_num)
-# print(s)
