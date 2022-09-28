@@ -17,6 +17,7 @@ with open("text.txt", "r") as file:
     index = 0
     while index < len(file_data_list):
         position = int(file_data_list[index])
+        # проверка, значение с файла > длины списка
         if position > len(string_numbers):
             sum_position_txt += 0
         else:
