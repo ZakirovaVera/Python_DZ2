@@ -14,14 +14,11 @@ for i in range(1, user_numberN+1):
 
 print(f'N = {user_numberN} -> {result_product_numbers}')
 
-# user_numberN = int(input('Введите целое число N: '))
-# index = 1
-# product_numbers = 1
-# result_product_numbers = []
+# Второе решение через цикл while
 
+# index = 1
 # while index <= user_numberN:
 #     product_numbers *= index
 #     result_product_numbers.append(product_numbers)
 #     index += 1
-
 # print(f'N = {user_numberN} -> {result_product_numbers}')
