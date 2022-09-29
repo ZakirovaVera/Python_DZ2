@@ -2,12 +2,12 @@
 # Найдите произведение элементов на указанных позициях. Позиции хранятся
 # в файле file.txt в одной строке одно число.
 import random
-user_numberN = int(input('Введите целое число N: '))
+user_number_n = int(input('Введите целое число N: '))
 string_numbers = []
 sum_position_txt = 0
 
-while len(string_numbers) < user_numberN:
-    string_numbers.append(random.randrange(-user_numberN, user_numberN+1))
+while len(string_numbers) < user_number_n:
+    string_numbers.append(random.randrange(-user_number_n, user_number_n+1))
 
 print(string_numbers)
 
