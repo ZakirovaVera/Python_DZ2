@@ -15,6 +15,6 @@ while integer_user_number != 0:
 
 # если введено отрицательное число, то и сумма будет отрицательной
 if user_number > 0:
-    print(f'{(user_number)} -> {sum_digits_number}')
+    print(f'{user_number} -> {sum_digits_number}')
 else:
-    print(f'{(user_number)} -> {-sum_digits_number}')
+    print(f'{user_number} -> {-sum_digits_number}')
